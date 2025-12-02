@@ -10,4 +10,10 @@ int main() {
     printf("\n");
 
     printf("Index of 4: %d\n", array_find(arr, 4));
+
+    printf("Sorting array...\n");
+    bubble_sort(arr);
+    for (size_t i = 0; i < n; i++)
+        printf("%d ", arr[i]);
+    printf("\n");
 }
