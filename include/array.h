@@ -5,14 +5,10 @@
 
 #define array_find(arr,value)( array_find_impl(arr, sizeof(arr)/sizeof((arr)[0]), value) )
 
-/**
- * @brief Finds a value in an int array
- * @param arr Array to search in
- * @param n Size of the array
- * @param value Value to find
- * @return Index of the value, or -1 if not found
- */
+#define merge_sort(arr) merge_sort_impl(arr, sizeof(arr)/sizeof((arr)[0]))
+
 int array_find_impl(const int *arr, size_t n, int value);
 
+void merge_sort_impl(int *arr, size_t n);
 
 #endif

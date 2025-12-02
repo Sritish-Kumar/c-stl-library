@@ -10,3 +10,22 @@ int array_find_impl(const int *arr, size_t n, int value) {
     }
     return -1;
 }
+
+
+/*
+Merge Sort Implementation
+*/
+
+void merge_sort_impl(int *arr,size_t n){
+
+    if (n==1)
+    {
+        return arr;
+    }
+
+    int mid = n/2;
+
+    // int left[] = merge_sort_impl()
+    // .... WIll update later 
+    
+}
