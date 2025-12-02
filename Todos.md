@@ -9,3 +9,6 @@
 3. ~~Merge Sort~~ (Done) [Sritish]
     - Takes a src arr, returns an dynamic array location of the sorted array.
     - Note: User is responsible to free that dynamic sorted array
+
+4. ~~Bubble Sort~~ (Done) [kaushik]
+    - Takes an array and sort it using bubble sort
