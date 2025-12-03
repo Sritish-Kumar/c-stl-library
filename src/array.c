@@ -1,6 +1,19 @@
 #include "array.h"
+#include <stdio.h>
 #include <stdlib.h>
 #include <stdbool.h>
+
+/* -------------------------------------------------------------- --------------------------------------------------------------
+Print Array Implementation
+*/
+
+void array_print_impl(int* arr, size_t n){
+    printf("[ ");
+    for(size_t i=0;i<n;i++){
+        printf("%d ",arr[i]);
+    }
+    printf("]\n");
+}
 
 /* -------------------------------------------------------------- --------------------------------------------------------------
 Linear Search Implementation with O(n) time complexity  
